@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <title></title>
+</head>
+<body>
+
+<div class="logBox">
+    <div class="login">
+        <div class="logo"></div>
+        <div class="box">
+            <input id="username" type="text" class="textbox" placeholder="Enter Username" />
+            <input id="password" type="password" class="textbox" placeholder="Enter Password" />
+        </div>
+        <div id="login" class="button">Login</div>
+    </div>
+</div>
+
+<div class="dialog_box dialog_box_disable">
+    <div class="dialog_box_container">
+        <div class="dialog_title">Dialog Box</div>
+        <div class="dialog_body">I am Pathik devai. I am Pathik devai. I am Pathik devai. I am Pathik devai.</div>
+        <div class="dialog_btn_container">
+            <div id="dialog_ok" class="dialog_btn">Ok</div>
+            <div id="dialog_cancel" class="dialog_btn">Cancle</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="container_event_manager" class="container container_active">
+    <div class="event_list_container list_container">
+
+        <div class="event_search search">
+            <input type="text" id="event_search_box" class="serch_input" placeholder="Search Events">
+        </div>
+
+        <div class="event_list container_list">
+            <div class="event_list_item container_list_item" data_id="1">
+                <div class="event_name container_list_item_name">Web Design</div>
+            </div>
+        </div>
+
+        <div class="add_event add_item" id="add_event">ADD NEW EVENT</div>
+    </div>
+
+    <div class="event_view_container view_container">
+        <div class="event_view_menubar view_menubar">
+            <div class="event_view_name view_name">None</div>
+            <div id="delete_event" class="event_view_delete_btn view_delete_btn view_delete_btn_disable">Delete</div>
+        </div>
+        <div class="event_view_body view_body view_body_disable">
+            <div class="event_view_body_contain view_body_contain" data_id="">
+
+                <!-- event name -->
+                <div class="view_event_name_container   view_item_conainer">
+                    <div class="event_name_lable  view_lable">Event Name:</div>
+                    <input type="text" class="event_name_input  input_text" placeholder="Event name" value="">
+                </div>
+
+                <!-- event time -->
+                <div class="view_event_time_container   view_item_conainer">
+                    <div class="event_time_lable  view_lable">Event Time:</div>
+                    <input type="text" class="event_time_input  input_text" placeholder="Event time" value="">
+                </div>
+
+                <!-- event type -->
+                <div class="view_event_type_container   view_item_conainer">
+                    <div class="event_type_lable  view_lable">Event Type:</div>
+                    <input type="text" class="event_type_input  input_text" placeholder="Event type" value="">
+                </div>
+
+                <!-- event tag -->
+                <div class="view_event_tag_container view_item_conainer">
+                    <div class="event_tag_lable  view_lable">Event Tag:</div>
+                    <input type="text" class="event_tag_input input_text" placeholder="Event tag" value="">
+                </div>
+
+                <!-- event location -->
+                <div class="view_event_location_container view_item_conainer">
+                    <div class="event_location_lable  view_lable">Event Location:</div>
+                    <input type="text" class="event_location_input input_text" placeholder="Event location" value="">
+                </div>
+
+                <!-- event intro -->
+                <div class="view_event_intro_container view_item_conainer">
+                    <div class="event_intro_lable  view_lable">Event Introducation:</div>
+                    <textarea class="event_intro_input text_area" placeholder="Event introducation" value=""></textarea>
+                </div>
+
+                <!-- event task -->
+                <div class="view_event_task_container view_item_conainer">
+                    <div class="event_task_lable  view_lable">Event Task:</div>
+                    <textarea class="event_task_input text_area" placeholder="Event task" value=""> </textarea>
+                </div>
+
+                <!-- event rule -->
+                <div class="view_event_rule_container view_item_conainer">
+                    <div class="event_rule_lable  view_lable">Event Rules:</div>
+                    <textarea class="event_rule_input text_area " placeholder="Event rules" value=""></textarea>
+                </div>
+
+
+                <!-- event site share link -->
+                <div class="view_event_share_link_container   view_item_conainer">
+                    <div class="event_share_link_lable  view_lable">Event Share link:</div>
+                    <input type="text" class="event_share_link_input  input_text" placeholder="Share link" value="">
+                </div>
+
+                <!-- event cooredinator 1 -->
+                <div class="view_event_coordinatore1_container   view_item_conainer">
+                    <div class="event_coordinatore1_lable  view_lable">Event Coordinatore 1 :</div>
+                    <input type="text" class="event_coordinatore1_name  input_text" placeholder="Coordinatore name " value="">
+                    <input type="text" style="margin-top: 10px" class="event_coordinatore1_mail  input_text" placeholder="Coordinatore mail" value="">
+                </div>
+
+                <!-- event cooredinator 2 -->
+                <div class="view_event_coordinatore2_container   view_item_conainer">
+                    <div class="event_coordinatore2_lable  view_lable">Event Coordinatore 2 :</div>
+                    <input type="text" class="event_coordinatore2_name  input_text" placeholder="Coordinatore name " value="">
+                    <input type="text" style="margin-top: 10px" class="event_coordinatore2_mail  input_text" placeholder="Coordinatore mail" value="">
+                </div>
+
+                <div class = "view_item_conainer">
+                    <img  src="" class="event_post_img view_post_img"  onerror="this.src = '/img/data/404.jpg';" />
+                </div>
+
+                <input class="view_item_conainer" id="event_upload_btn" size="20" type="file" value="upload">
+
+                <div class="view_event_submint_container view_submit_container">
+                    <div class="view_event_submint view_submit ">Submit</div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="container_student_manager" class="container">
+    <div class="student_list_container list_container">
+
+        <div class="student_search search">
+            <input type="text" id="student_search_box" data_type="student" class="serch_input" placeholder="Search Student">
+        </div>
+
+        <div class="student_list container_list">
+            <div class="student_list_item container_list_item" data_id="1">
+                <div class="student_name container_list_item_name">Pathik Devani</div>
+            </div>
+        </div>
+
+        <div class="add_student add_item" id="add_student" data_type="student">ADD NEW STUDENT</div>
+    </div>
+
+    <div class="student_view_container view_container">
+        <div class="student_view_menubar view_menubar">
+            <div class="student_view_name view_name">None</div>
+            <div id="delete_student" class="student_view_delete_btn view_delete_btn view_delete_btn_disable" type="student" cmd="2102">Delete</div>
+        </div>
+        <div class="student_view_body view_body view_body_disable">
+            <div class="student_view_body_contain view_body_contain" data_id="">
+
+                <!-- student name -->
+                <div class="view_student_name_container   view_item_conainer">
+                    <div class="student_name_lable  view_lable">Student Name:</div>
+                    <input type="text" class="student_name_input  input_text" placeholder="Student name" value="">
+                </div>
+
+                <!-- student post -->
+                <div class="view_student_post_container   view_item_conainer">
+                    <div class="student_post_lable  view_lable">Student post :</div>
+                    <textarea type="text" class="student_post_input  text_area" placeholder="Student post" value=""></textarea>
+                </div>
+
+                <div class = "view_item_conainer">
+                    <img  src="" class="student_post_img view_post_img"  onerror="this.src = '/img/data/404.jpg';" />
+                </div>
+
+
+                <input class="view_item_conainer" id="student_upload_btn" size="20" type="file" value="upload">
+
+                <div class="view_student_submint_container view_submit_container">
+                    <div class="view_student_submint view_submit" data_type="student" cmd ="2103">Submit</div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="container_faculty_manager" class="container">
+    <div class="faculty_list_container list_container">
+
+        <div class="faculty_search search">
+            <input type="text" id="faculty_search_box" data_type="faculty"  class="serch_input" placeholder="Search Faculty">
+        </div>
+
+        <div class="faculty_list container_list">
+            <div class="faculty_list_item container_list_item" data_id="1">
+                <div class="faculty_name container_list_item_name">Dk Shing</div>
+            </div>
+        </div>
+
+        <div class="add_faculty add_item" id="add_faculty" data_type="faculty">ADD NEW FACULTY</div>
+    </div>
+
+    <div class="faculty_view_container view_container">
+        <div class="faculty_view_menubar view_menubar">
+            <div class="faculty_view_name view_name">None</div>
+            <div id="delete_faculty" class="faculty_view_delete_btn view_delete_btn view_delete_btn_disable" type="faculty" cmd="2202">Delete</div>
+        </div>
+        <div class="faculty_view_body view_body view_body_disable">
+            <div class="faculty_view_body_contain view_body_contain" data_id="">
+
+                <!-- faculty name -->
+                <div class="view_faculty_name_container   view_item_conainer">
+                    <div class="faculty_name_lable  view_lable">Faculty Name:</div>
+                    <input type="text" class="faculty_name_input  input_text" placeholder="Faculty name" value="">
+                </div>
+
+                <!-- faculty post -->
+                <div class="view_faculty_post_container   view_item_conainer">
+                    <div class="faculty_post_lable  view_lable">Faculty post :</div>
+                    <textarea type="text" class="faculty_post_input  text_area" placeholder="Faculty post" value=""></textarea>
+                </div>
+
+                <div class = "view_item_conainer">
+                    <img  src="" class="faculty_post_img view_post_img"  onerror="this.src = '/img/data/404.jpg';" />
+                </div>
+
+                <input class="view_item_conainer" id="faculty_upload_btn" size="20" type="file" value="upload">
+
+                <div class="view_faculty_submint_container view_submit_container">
+                    <div class="view_faculty_submint view_submit" data_type="faculty" cmd="2203">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container_sponsor_manager" class="container">
+    <div class="sponsor_list_container list_container">
+
+        <div class="sponsor_search search">
+            <input type="text" id="sponsor_search_box" data_type="sponsor" class="serch_input" placeholder="Search Sponsor">
+        </div>
+
+        <div class="sponsor_list container_list">
+            <div class="sponsor_list_item container_list_item" data_id="1">
+                <div class="sponsor_name container_list_item_name">SRK</div>
+            </div>
+        </div>
+
+        <div class="add_sponsor add_item" id="add_sponsor" data_type="sponsor">ADD NEW SPONSOR</div>
+    </div>
+
+    <div class="sponsor_view_container view_container">
+        <div class="sponsor_view_menubar view_menubar">
+            <div class="sponsor_view_name view_name">None</div>
+            <div id="delete_sponsor" class="sponsor_view_delete_btn view_delete_btn view_delete_btn_disable" type="sponsor" cmd="2302">Delete</div>
+        </div>
+        <div class="sponsor_view_body view_body view_body_disable">
+            <div class="sponsor_view_body_contain view_body_contain" data_id="">
+
+                <!-- sponsor name -->
+                <div class="view_sponsor_name_container   view_item_conainer">
+                    <div class="sponsor_name_lable  view_lable">Sponsor Name:</div>
+                    <input type="text" class="sponsor_name_input  input_text" placeholder="Sponsor name" value="">
+                </div>
+
+                <!-- sponsor post -->
+                <div class="view_sponsor_post_container   view_item_conainer">
+                    <div class="sponsor_post_lable  view_lable">Sponsor post :</div>
+                    <textarea type="text" class="sponsor_post_input  text_area" placeholder="Sponsor post" value=""></textarea>
+                </div>
+
+                <div class = "view_item_conainer">
+                    <img  src="" class="sponsor_post_img view_post_img"  onerror="this.src = '/img/data/404.jpg';" />
+                </div>
+
+                <input class="view_item_conainer" id="sponsor_upload_btn" size="20" type="file" value="upload">
+
+                <div class="view_sponsor_submint_container view_submit_container">
+                    <div class="view_sponsor_submint view_submit" data_type="sponsor" cmd="2303">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="container_news_manager" class="container">
+    <div class="news_list_container list_container">
+
+        <div class="news_search search">
+            <input type="text" id="news_search_box" data_type="news" class="serch_input" placeholder="Search News">
+        </div>
+
+        <div class="news_list container_list">
+            <div class="news_list_item container_list_item" data_id="1">
+                <div class="news_name container_list_item_name">SRK</div>
+            </div>
+        </div>
+
+        <div class="add_news add_item" id="add_news" data_type="news">ADD NEW NEWS</div>
+    </div>
+
+    <div class="news_view_container view_container">
+        <div class="news_view_menubar view_menubar">
+            <div class="news_view_name view_name">None</div>
+            <div id="delete_news" class="news_view_delete_btn view_delete_btn view_delete_btn_disable" type="news" cmd="2402">Delete</div>
+        </div>
+        <div class="news_view_body view_body view_body_disable">
+            <div class="news_view_body_contain view_body_contain" data_id="">
+
+                <!-- news title -->
+                <div class="view_news_name_container   view_item_conainer">
+                    <div class="news_name_lable  view_lable">News title:</div>
+                    <input type="text" class="news_name_input  input_text" placeholder="News title" value="">
+                </div>
+
+                <!-- news content -->
+                <div class="view_news_post_container   view_item_conainer">
+                    <div class="news_post_lable  view_lable">News content :</div>
+                    <textarea type="text" class="news_post_input  text_area" placeholder="News content" value=""></textarea>
+                </div>
+
+                <div class="view_news_submint_container view_submit_container">
+                    <div class="view_news_submint view_submit" data_type="news" cmd="2403">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class='error' style='display:none;z-index: 9000;font-family: cuprum;'>Event Created</div>
+
+
+
+
+<div class="left_panel">
+    <div class="left_panel_container">
+        <div id = "event_manager" class="panel_item panel_item_active">Event Manager</div>
+        <div id = "student_manager" class="panel_item">Student Manager</div>
+        <div id = "faculty_manager" class="panel_item">Faculty Manager</div>
+        <div id = "sponsor_manager" class="panel_item">Sponsor Manager</div>
+        <div id = "news_manager" class="panel_item">News Manager</div>
+    </div>
+</div>
+</body>
+
+<style>
+
+
+
+    .left_panel_container > .panel_item_active{
+        background-color: #DCE775!important;
+    }
+
+    .left_panel_container > .panel_item:hover{
+        background-color: #FFE0B2;
+    }
+
+
+    .left_panel_container > .panel_item:first-child{
+        margin-top: 0px!important;
+    }
+    .left_panel_container > .panel_item{
+        background-color: #f8f8f8;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 2px;
+        text-indent: 10px;
+        width: 100%;
+        transition :   all 250ms ease 0s;
+        cursor: pointer;
+    }
+
+    .left_panel > .left_panel_container{
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 0 9px 0 black;
+    }
+    .left_panel:hover{
+        margin-left: 0px;
+    }
+
+    .left_panel{
+
+       /* margin-left: -350px;*/
+        height: 100%;
+        margin-left: -350px;
+        min-height: 500px;
+        padding-right: 5px;
+        position: absolute;
+        transition: all 250ms ease 0s;
+        width: 350px;
+        z-index: 7000;
+    }
+
+
+
+
+    #dialog_ok:hover{
+        background-color: #7cb342;
+        color: black;
+    }
+    #dialog_ok{
+        background-color: #9ccc65;
+        color: black;
+    }
+    #dialog_cancel:hover{
+        background-color: #f44336;
+        color: white;
+    }
+
+    #dialog_cancel{
+        background-color: #e57373;
+        color: white;
+    }
+    .dialog_btn_container > .dialog_btn{
+        border-radius: 5px;
+        transition :all 250ms ease 0s;
+        float: right;
+        height: calc(100% - 10px);
+        line-height: 35px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: -moz-min-content;
+        cursor: pointer;
+    }
+
+    .dialog_box_container > .dialog_btn_container{
+        border-radius: 0 0 5px 5px;
+        height: 45px;
+        width: 100%;
+    }
+
+    .dialog_box_container > .dialog_body{
+        height: calc(100% - 96px);
+        overflow: hidden;
+        padding: 5px 15px;
+        width: calc(100% - 30px);
+        color: #444444;
+    }
+
+    .dialog_box_container > .dialog_title{
+        background: none repeat scroll 0 0 #e3e3e3;
+        border-bottom: 1px solid #d5d5d5;
+        border-radius: 5px 5px 0 0;
+        height: 40px;
+        line-height: 41px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        width: calc(100% - 20px);
+    }
+
+    .dialog_box_container {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 14px 73px -33px black;
+        height: 150px;
+        margin: 100px auto auto;
+        width: 400px;
+    }
+
+    .dialog_box{
+        z-index: 8000;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, .5);
+        transition :all 500ms ease 0s;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .dialog_box_disable{
+        opacity: 0 !important;
+        transform : scale(0.9);
+        pointer-events : none;
+    }
+
+
+
+    .view_post_img{
+        box-shadow: 0 0 40px -15px black;
+        max-height: 400px;
+        width: auto;
+    }
+
+
+    .view_lable{
+        color: #666666;
+        padding-bottom: 2px;
+    }
+
+    .view_submit_container{
+        width: 470px;
+    }
+
+    .view_submit:active{
+        background-color: #689f38 !important;
+    }
+
+    .view_submit:hover{
+        background-color: #9ccc65;
+
+    }
+
+    .view_submit{
+        transition:all 500ms ease 0s;
+        background-color: #8bc34a;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px #666666;
+        color: black;
+        float: right;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: -moz-min-content;
+        cursor: pointer;
+    }
+
+    .view_item_conainer:last-child{
+        margin-bottom: 30px;
+    }
+    .view_item_conainer{
+        margin-top: 30px;
+    }
+
+    .text_area{
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        height: 200px;
+        margin: 0;
+        padding: 10px;
+        width: 450px;
+    }
+
+
+    .input_text{
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+    }
+
+
+    .view_body_contain{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .view_body_disable{
+        pointer-events : none ! important;
+        opacity: 0 ! important;
+    }
+
+    .view_body{
+        transition :all 500ms ease 0s;
+        opacity: 1;
+        pointer-events : auto;
+        float: left;
+        height: calc(100% - 50px);
+        padding-left: 50px;
+        padding-right: 50px;
+        width: calc(100% - 100px);
+        overflow: auto;
+    }
+
+
+    .btn{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    .view_name{
+        color: white;
+        float: left;
+        font-size: 18px;
+        line-height: 50px;
+        margin-left: 10px;
+        width: -moz-max-content;
+    }
+
+    .view_delete_btn:active{
+        background-color: #e53935 !important;
+    }
+    .view_delete_btn:hover{
+        background-color: #f44336;
+    }
+    .view_delete_btn{
+        background-color: #ef5350;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px #666666;
+        color: white;
+        float: right;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        width: -moz-min-content;
+        cursor: pointer;
+        transition: all 500ms ease 0s;
+    }
+
+    .view_delete_btn_disable{
+        opacity: 0;
+        pointer-events : none;
+    }
+
+
+
+    .view_menubar{
+        float: left;
+        position: relative;
+        background-color: #1e88e5;
+        box-shadow: 4px -3px 7px black;
+        height: 50px;
+        width: 100%;;
+    }
+
+
+    .container_list_item_name{
+        font-size: 15px;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 7px;
+        padding-right: 7px
+    }
+    .container_list_item:first-child{
+        margin-top: 0px;
+    }
+    .container_list_item:hover{
+        background-color: #ffcdd2;
+    }
+    .container_list_item{
+        background-color: #e3f2fd;
+        float: left;
+        margin-top: 2px;
+        height: 50px;
+        width: 100%;
+        color: #666666;
+        transition:all 250ms ease 0s;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .list_item_disable{
+        opacity: 0 !important;
+        pointer-events : none;
+    }
+
+    .list_item_selected{
+        background-color: #e57373 ! important;
+        color: white !important;
+    }
+
+    .container_list{
+        background-color: #f3fcfc;
+        border-right: 1px solid #e0e0e0;
+        float: left;
+        height: calc(100% - 100px);
+        overflow: auto;
+        width: calc(100% - 1px);
+    }
+
+    .add_item:active{
+        background-color: #e53935 !important;
+    }
+    .add_item:hover{
+        background-color: #f44336;
+    }
+    .add_item{
+        background-color: #ef5350;
+        border-right: 1px solid #e0e0e0;
+        box-shadow: 0 3px 7px black;
+        color: white;
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: calc(100% - 1px);
+        cursor: pointer;
+    }
+
+    .serch_input {
+        background-color: white;
+        border: 1px solid #888888;
+        border-radius: 5px;
+        height: calc(100% - 10px);
+        margin-left: 7px;
+        margin-top: 4px;
+        padding: 0 10px;
+        width: calc(100% - 34px);
+    }
+    .search{
+        background-color: #1e88e5;
+        box-shadow: 0 -3px 7px black;
+        float: left;
+        height: 50px;
+        position: relative;
+        width: 100%;
+    }
+    .list_container{
+        width: 350px;
+        height: 100%;
+        background-color: red;
+        float: left;
+        position: relative;
+    }
+    .view_container{
+        position: relative;
+        width: calc(100% - 350px);
+        height: 100%;
+        float: left;
+        background-color: #e3e3e3;
+    }
+
+
+
+
+    .container{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        min-height: 500px;
+        min-width: 1000px;
+        transition : all 500ms ease 0s;
+        display: none;
+        opacity: 0;
+    }
+
+    .container_active {
+        display: block!important;
+        opacity: 1!important;
+    }
+
+
+    .link{
+        bottom: 15px;
+        width: 200px;
+        position: absolute;
+        font-size: 12px;
+        right: 10px;
+        /*color: #00ccff;*/
+        color:#72c02c;
+        text-decoration: none;
+    }
+    .link:hover{
+        text-decoration: underline;
+    }
+    body{
+        margin: 0;
+    }
+    .logBox.ok{
+        pointer-events:none;
+    }
+    .logBox{
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+    }
+    .login > .box > .textbox:nth-child(2) {
+        top: 118px;
+        border-radius:0 0 20px 20px;
+    }
+    .login > .box > .textbox{
+        border: 1px solid #ccc;
+        border-radius: 20px 20px 0 0;
+        height: 46px;
+        left: 75px;
+        padding-left: 14px;
+        outline: none;
+        position: absolute;
+        top: 63px;
+        width: 350px;
+    }
+
+
+    .login.ok{
+        opacity: 0 ! important;
+        transform: scale(0.9);
+        pointer-events:none;
+    }
+    .login > .button:hover{
+        background-color: #00d6bb;
+        cursor: pointer;
+        color: #444;
+    }
+    .login > .button {
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 0 0 15px 15px;
+        color: #000;
+        content: "kishan";
+        font-size: 22px;
+        height: 42px;
+        left: calc(50% - 75px);
+        line-height: 40px;
+        position: absolute;
+        text-align: center;
+        top: calc(50% + 139px);
+        width: 150px;
+        transition:all 500ms;
+    }
+    .login > .box{
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+        border: 1px solid #fff;
+        border-radius: 65px 0;
+        height: 228px;
+        left: calc(50% + 2px);
+        position: absolute;
+        top: calc(50% - 125px);
+        width: 500px;
+    }
+    .login > .logo{
+        background-image: url("img/data/Logo.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 2px solid #fff;
+        border-radius: 0 65px;
+        box-shadow: 0 0 73px rgba(255, 255, 255, 0.37);
+        height: 226px;
+        left: calc(50% - 500px);
+        position: absolute;
+        top: calc(50% - 125px);
+        width: 500px;
+    }
+    .login{
+        /*background-color: #00ccff;*/
+        background-color:#72c02c;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        height: 200%;
+        left: -50%;
+        opacity: 1;
+        position: absolute;
+        top: -50%;
+        transform: scale(1);
+        transition: all 500ms ease 0s;
+        width: 200%;
+        z-index: 10000;
+    }
+    .logBoxDisable{
+        opacity: 0;
+    }
+
+
+    .error {
+        width:200px;
+        height:20px;
+        height:auto;
+        position:absolute;
+        left:50%;
+        margin-left:-100px;
+        bottom:10px;
+        background-color: #383838;
+        color: #F0F0F0;
+        font-family: Calibri;
+        font-size: 20px;
+        padding:10px;
+        text-align:center;
+        border-radius: 2px;
+        -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+        -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+        box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    }
+
+    @font-face {
+        font-family: segoeui;
+        src: url(font/segoeui.ttf);
+    }
+    @font-face {
+        font-family: cuprum;
+        src: url(font/Cuprum-Regular.ttf);
+    }
+    body{
+        font-family: cuprum;
+    }
+    input{
+        font-family: segoeui;
+    }
+    textarea{
+        font-family: segoeui;
+        font-size: small;
+    }
+
+</style>
+
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/Long.js"></script>
+<script type="text/javascript" src="js/ByteBuffer.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+
+var username;
+var password;
+var isFirstTime = true;
+
+var defHost = location.hostname;
+var ByteBuffer = dcodeIO.ByteBuffer;
+var count = 10010;
+var isLogin = false;
+
+//elements
+var element_events_list_item;
+var element_student_list_item;
+var element_faculty_list_item;
+var element_sponsor_list_item;
+var element_news_list_item;
+
+var element_dialog_box;
+
+
+$(document).ready(function(){
+    initElement();
+
+
+    //for panel
+    $(".panel_item").on('click',function(){
+        $(".panel_item").removeClass("panel_item_active");
+        $(this).addClass("panel_item_active");
+
+        var container_id = "container_" + $(this).attr('id');
+        $(".container").removeClass("container_active");
+        $("#"+container_id).addClass("container_active");
+
+    });
+
+
+
+
+
+    $("#add_event").on('click',function(){
+
+        initBlanckAllInputEventData();
+
+        $(".event_view_name").text("Add new Event");
+        $('.event_view_body_contain').attr('data_id','new');
+        $(".event_view_body").removeClass('view_body_disable');
+        $(".event_list_item").removeClass("list_item_selected");
+
+        $("#delete_event").addClass("view_delete_btn_disable");
+    });
+
+
+
+    $("#add_student,#add_faculty,#add_sponsor,#add_news").on('click',function(){
+        var type = $(this).attr('data_type');
+
+        var obj = new Object();
+        obj[type] = true;
+        init_blank_our_team_data(obj);
+
+        $("."+type+"_view_name").text("Add new "+type);
+        $('.'+type+'_view_body_contain').attr('data_id','new');
+        $("."+type+"_view_body").removeClass('view_body_disable');
+        $("."+type+"_list_item").removeClass("list_item_selected");
+
+        $("#delete_"+type).addClass("view_delete_btn_disable");
+    });
+
+
+
+
+
+
+
+
+
+    $('#event_search_box').on('keyup change', function() {
+        var search_text = $(this).val().toLowerCase();
+        $(".event_list_item").each(function(){
+            var contain_text = $(this).text();
+
+            if(contain_text.toLowerCase().indexOf(search_text) >= 0){
+                var $this = $(this);
+
+                $(this).css('display','block');
+                $(this).removeClass("list_item_disable");
+            }else{
+
+                setTimeout(function(){
+                    $(".list_item_disable").css('display','none');
+                },250);
+                $(this).addClass("list_item_disable");
+            }
+        });
+    });
+
+    $('#student_search_box,#faculty_search_box,#sponsor_search_box').on('keyup change', function() {
+        var type = $(this).attr('data_type');
+
+
+        var search_text = $(this).val().toLowerCase();
+        $("."+type+"_list_item").each(function(){
+            var contain_text = $(this).text();
+
+            if(contain_text.toLowerCase().indexOf(search_text) >= 0){
+                var $this = $(this);
+
+                $(this).css('display','block');
+                $(this).removeClass("list_item_disable");
+            }else{
+
+                setTimeout(function(){
+                    $(".list_item_disable").css('display','none');
+                },250);
+                $(this).addClass("list_item_disable");
+            }
+        });
+    });
+
+
+
+
+
+
+
+    $("#delete_event").on('click',function(){
+        var ok_delete = function(){
+            var data_id = $(".event_view_body_contain").attr('data_id');
+            if(data_id  != "" && data_id != "new"){
+                var delet_event_data = new ByteBuffer();
+                delet_event_data.writeInt32(count);
+                delet_event_data.writeInt32(2007);
+                delet_event_data.writeInt32(parseInt(data_id));
+
+                sendData(count,$("#delete_event"),delet_event_data,function(){
+                    initBlanckAllInputEventData();
+                    LoadEventList();
+                    $(".event_view_body").addClass("view_body_disable");
+                    $("#delete_event").addClass("view_delete_btn_disable");
+                });
+
+            }
+        };
+
+
+        showAlert({
+            title : "Delete Event",
+            body : "Are you sure delete this event",
+            ok : ok_delete
+        });
+
+    });
+
+    $("#delete_student ,#delete_faculty, #delete_sponsor,#delete_news").on('click',function(){
+        var type = $(this).attr('type');
+        var commande = parseInt($(this).attr('cmd'));
+
+        var ok_delete = function(){
+            var data_id = $("."+type+"_view_body_contain").attr('data_id');
+            if(data_id != "" && data_id != "new"){
+                var delet_data = new ByteBuffer();
+                delet_data.writeInt32(count);
+                delet_data.writeInt32(commande);
+                delet_data.writeInt32(parseInt(data_id));
+
+                sendData(count,$("#delete_"+type),delet_data,function(){
+
+                    var obj = new Object();
+                    obj[type] = true;
+                    init_blank_our_team_data(obj);
+                    load_our_team_data(obj);
+
+                    $("."+type+"_view_body").addClass("view_body_disable");
+                    $("#delete_"+type).addClass("view_delete_btn_disable");
+                });
+            }
+        };
+
+        showAlert({
+            title : "Delete "+type,
+            body : "Are you sure delte this "+type,
+            ok : ok_delete
+        });
+
+    });
+
+
+
+
+
+
+
+    init_blank_our_team_data({student:true,faculty:true,sponsor:true,news:true});
+    initBlanckAllInputEventData();
+
+    $(".view_event_submint").on('click',function(){
+        var data_id = $('.event_view_body_contain').attr('data_id');
+
+        if(!(data_id == "")){
+
+            var name = $(".event_name_input").val();
+            var time =  $(".event_time_input").val();
+            var type = $(".event_type_input").val();
+            var tag = $(".event_tag_input").val();
+            var location = $(".event_location_input").val();
+            var intro = $(".event_intro_input").val();
+            intro = intro.replace('\u001a','');
+
+
+            var task =  $(".event_task_input").val();
+            var rule = $(".event_rule_input").val();
+            var share_link =  $(".event_share_link_input").val();
+
+            var coordinatore1_name =  $(".event_coordinatore1_name").val();
+            var coordinatore1_email = $(".event_coordinatore1_mail").val();
+
+            var coordinatore2_name = $(".event_coordinatore2_name").val();
+            var coordinatore2_email = $(".event_coordinatore2_mail").val();
+
+            var update_event_data = new ByteBuffer();
+            update_event_data.writeInt32(count);
+            if(data_id == "new"){
+                //add event
+                update_event_data.writeInt32(2006);
+
+
+            }else{
+                //update event
+                update_event_data.writeInt32(2005);
+                var id = parseInt(data_id);
+                update_event_data.writeInt32(id);
+            }
+
+
+            if( name != "" && type != "" &&
+                intro != "" && task != "" && rule != "" && share_link != "" &&
+                coordinatore1_name != "" && coordinatore1_email != "" && coordinatore2_name != "" && coordinatore2_email != ""){
+
+
+                update_event_data.writeUTF(name);
+                update_event_data.writeUTF(time);
+                update_event_data.writeUTF(type);
+                update_event_data.writeUTF(tag);
+                update_event_data.writeUTF(location);
+                update_event_data.writeUTF(intro);
+                console.log(intro);
+
+
+                update_event_data.writeUTF(task);
+
+                console.log(task);
+                update_event_data.writeUTF(rule);
+                update_event_data.writeUTF(share_link);
+
+                update_event_data.writeUTF(coordinatore1_name);
+                update_event_data.writeUTF(coordinatore1_email);
+
+                update_event_data.writeUTF(coordinatore2_name);
+                update_event_data.writeUTF(coordinatore2_email);
+
+
+
+                /*update_event_data.writeIString(name);
+                update_event_data.writeIString(time);
+                update_event_data.writeIString(type);
+                update_event_data.writeIString(tag);
+                update_event_data.writeIString(location);
+                update_event_data.writeIString(intro);
+                console.log(intro);
+
+
+                update_event_data.writeIString(task);
+
+                console.log(task);
+                update_event_data.writeIString(rule);
+                update_event_data.writeIString(share_link);
+
+                update_event_data.writeIString(coordinatore1_name);
+                update_event_data.writeIString(coordinatore1_email);
+
+                update_event_data.writeIString(coordinatore2_name);
+                update_event_data.writeIString(coordinatore2_email);*/
+
+
+
+
+                sendData(count,$(".view_event_submint"),update_event_data,function(ev,data){
+                    var response = parseInt(data.msg.readInt32());
+                    if(response == 1){
+                        showToast("Event updated successfully...");
+                        $(".event_view_name").text(name);
+                        LoadEventList();
+
+
+                    }else{
+                        showToast("Event added successfully...");
+                        upload_poster("event",response,function(){
+                            initBlanckAllInputEventData();
+                        });
+                        LoadEventList();
+                    }
+                });
+
+
+                upload_poster("event",data_id);
+
+
+            }else{
+                showToast("don't leave any fields blank");
+            }
+        }else{
+            showToast("First select any Event.");
+        }
+    });
+
+
+    $(".view_student_submint,.view_faculty_submint,.view_sponsor_submint,.view_news_submint").on('click',function(){
+        var type = $(this).attr('data_type');
+        var data_cmd = parseInt($(this).attr('cmd'));
+        var data_id = $('.'+type+'_view_body_contain').attr('data_id');
+
+
+        if(data_id != ""){
+
+            var name = $("."+type+"_name_input").val();
+            var post =  $("."+type+"_post_input").val();
+
+            var update_data = new ByteBuffer();
+            update_data.writeInt32(count);
+
+
+            if(data_id == "new"){
+                //add event
+                update_data.writeInt32(data_cmd + 1);
+
+
+            }else{
+                //update event
+                update_data.writeInt32(data_cmd);
+                var id = parseInt(data_id);
+                update_data.writeInt32(id);
+            }
+
+
+            if(name != "" && post != ""){
+                update_data.writeUTF(name);
+                update_data.writeUTF(post);
+
+                sendData(count,$(".view_"+type+"_submint"),update_data,function(ev,data){
+                    var response = parseInt(data.msg.readInt32());
+                    if(response == 1){
+                        showToast(type+" updated successfully...");
+                        $("."+type+"_view_name").text(name);
+
+                        var obj = new Object();
+                        obj[type] = true;
+                        load_our_team_data(obj);
+
+                    }else{
+                        var obj = new Object();
+                        obj[type] = true;
+
+                        showToast(type +" added successfully...");
+                        if(type != "news"){
+                            upload_poster(type,response,function(){
+                                init_blank_our_team_data(obj);
+                            });
+                        }else{
+                            init_blank_our_team_data(obj);
+                        }
+
+                        load_our_team_data(obj);
+                    }
+                });
+
+                if(type != "news"){
+                    upload_poster(type,data_id);
+                }
+
+
+            }else{
+                showToast("don't leave any fields blank");
+            }
+        }else{
+            showToast("First select any "+type+".");
+        }
+
+    });
+
+
+
+    $.fn.Ws(defHost);
+
+
+    /*$(".event_view_body").on('click',function(){
+        showAlert({
+            title : "Delete Event",
+            body : "are your sure dete this event !",
+            ok : function(){
+                console.log("i am ok callback");
+            }
+
+        });
+    });*/
+});
+
+
+function showAlert(data){
+
+    var dialog_box = $(element_dialog_box);
+    var dialog_ok = dialog_box.find("#dialog_ok");
+    var dialog_cancel = dialog_box.find("#dialog_cancel");
+
+    dialog_box.find('.dialog_title').text(data.title);
+    dialog_box.find('.dialog_body').text(data.body);
+
+    dialog_ok.on('click',function(){
+        if($.isFunction(data.ok)){
+            data.ok();
+        }
+        $(".dialog_box").addClass("dialog_box_disable");
+    });
+
+    dialog_cancel.on('click',function(){
+        if($.isFunction(data.cancel)){
+            data.cancel();
+        }
+        $(".dialog_box").addClass("dialog_box_disable");
+    });
+
+    dialog_box.removeClass("dialog_box_disable");
+
+    $(".dialog_box").html("");
+    $(".dialog_box").append(dialog_box);
+    $(".dialog_box").removeClass("dialog_box_disable");
+}
+
+
+function upload_poster(type,data_id,callback){
+
+    if(data_id != "new"){
+        var file_name = $("#"+type+"_upload_btn").val();
+        if(file_name != "" && file_name != undefined){
+
+
+            if(file_name.substr((file_name.lastIndexOf('.') +1)).toLowerCase() == "jpg" || file_name.substr((file_name.lastIndexOf('.') +1)).toLowerCase() == "jpeg"){
+                var fileData = new FormData();
+                fileData.append(data_id+".jpg",$("#"+type+"_upload_btn").get(0).files[0]);
+
+                $.ajax({
+                    url : "/img/"+type+"/?id="+data_id +"&username="+username+"&password="+password+"&type="+type,
+                    type : "post",
+                    data : fileData,
+                    success : function(data){
+                        $("#"+type+"_upload_btn").val("");
+                        var d = new Date();
+                        $("."+type+"_post_img").attr('src','/img/'+type+'/'+data_id+".jpg?"+ d.getTime());
+
+                        if($.isFunction(callback)){
+                            callback();
+                        }
+                    },
+                    error : function(){
+                        if($.isFunction(callback)){
+                            callback();
+                        }
+                    },
+                    processData: false,
+                    contentType:false
+                });
+            }else{
+                console.log(file_name);
+                showAlert({
+                    title : "JPG or JPEG image",
+                    body : "be sure image type must be JPG or JPEG.",
+                    ok : function(){
+                        console.log("i am ok must be jpg...");
+                        if($.isFunction(callback)){
+                            callback();
+                        }
+                    }
+
+                });
+
+            }
+        }
+        else{
+            if($.isFunction(callback)){
+                callback();
+            }
+        }
+    }
+
+}
+
+
+
+function init_blank_our_team_data(init_cmd){
+
+
+    if(init_cmd.student)
+        init_by_type("student");
+
+    if(init_cmd.faculty)
+        init_by_type("faculty");
+
+    if(init_cmd.sponsor)
+        init_by_type("sponsor");
+
+    if(init_cmd.news)
+        init_by_type("news");
+
+    function init_by_type(type){
+        console.log(type);
+        $('#'+type+'_search_box').val("").change();
+
+        $("."+type+"_view_name").text("None");
+        $("."+type+"_view_body_contain").attr('data_id','');
+
+        $("."+type+"_name_input").val("");
+        $("."+type+"_post_input").val("");
+
+        $("#"+type+"_upload_btn").val("");
+
+        $("."+type+"_post_img").attr('src','/img/data/404.jpg');
+    }
+}
+
+
+function initBlanckAllInputEventData(){
+
+    $('#event_search_box').val("").change();
+
+    $(".event_view_name").text("None");
+    $(".event_view_body_contain").attr('data_id','');
+    $(".event_name_input").val("");
+    $(".event_time_input").val("");
+    $(".event_type_input").val("");
+    $(".event_tag_input").val("");
+    $(".event_location_input").val("");
+    $(".event_intro_input").val("");
+    $(".event_task_input").val("");
+    $(".event_rule_input").val("");
+    $(".event_share_link_input").val("");
+
+    $(".event_coordinatore1_name").val("");
+    $(".event_coordinatore1_mail").val("");
+
+    $(".event_coordinatore2_name").val("");
+    $(".event_coordinatore2_mail").val("");
+
+    $("#event_upload_btn").val("");
+    $(".event_post_img").attr('src','/img/data/404.jpg');
+}
+
+function showToast(msg){
+    $('.error').text(msg).fadeIn(400).delay(1000).fadeOut(400);
+}
+
+function initElement(){
+    //event list item element
+    element_events_list_item = $(".event_list").html();
+    $(".event_list").html("");
+
+    //student list item elemnet
+    element_student_list_item = $(".student_list").html();
+    $(".student_list").html("");
+
+
+    //student list item elemnet
+    element_sponsor_list_item = $(".sponsor_list").html();
+    $(".sponsor_list").html("");
+
+    //student list item elemnet
+    element_faculty_list_item = $(".faculty_list").html();
+    $(".faculty_list").html("");
+
+    //news list item element
+    element_news_list_item = $(".news_list").html();
+    $(".news_list").html("");
+
+
+    //dialog box element
+    element_dialog_box = $(".dialog_box").html();
+    $(".dialog_box").html("");
+
+}
+
+$(window).bind(defHost+"Connected",function(){
+
+
+    console.log("connected...");
+    if(!isFirstTime){
+        request_login();
+    }
+
+    setInterval(function(){
+
+        var ping_data = new ByteBuffer();
+        ping_data.writeInt32(10000);
+        ping_data.writeInt32(2002);
+
+        $.fn.Ws.Send(defHost,$("#container_event_manager"),10000,ping_data,function(){
+            //console.log("i am pong");
+        });
+    },30000);
+
+
+    $('#password').keypress(function(event){
+
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == '13'){
+            request_login();
+        }
+        event.stopPropagation();
+    });
+
+
+    $("#login").on('click',function(){
+        request_login();
+    });
+
+    function request_login(){
+        var username_current,password_current;
+        if(!isFirstTime){
+            username_current = username;
+            password_current = password;
+        }else{
+            username_current = $("#username").val();
+            password_current = $("#password").val();
+        }
+
+
+
+        var bb = new ByteBuffer();
+        bb.writeInt32(count);
+        bb.writeInt32(2001);
+        bb.writeUTF(username_current);
+        bb.writeUTF(password_current);
+
+
+
+        doLogin(count,$("#login"),bb,function(ev,data){
+            var response = data.msg.readInt32();
+            if(response === 1){
+                isLogin = true;
+                username = username_current;
+                password = password_current;
+                $(window).trigger('Login_sucss');
+            }else{
+                console.log("login errore");
+            }
+        });
+    }
+
+
+
+});
+
+function doLogin(cnt,elm,data,fn){
+    if(!isLogin){
+        console.log("ok");
+        $.fn.Ws.Send(defHost,elm,cnt,data,fn);
+        count++;
+    }else{
+        console.log("alredy login");
+    }
+}
+
+
+$(window).bind("Login_sucss",function(){
+
+    console.log("log in ok");
+
+    $(".login").addClass('ok');
+
+    LoadEventList();
+    load_our_team_data({
+        student : true,
+        faculty : true,
+        sponsor : true,
+        news    : true
+    });
+
+});
+
+
+function load_our_team_data(load_cmd){
+
+    if(load_cmd.student)
+        load_my_list($(".student_list"),element_student_list_item,2100,"student");
+    if(load_cmd.faculty)
+        load_my_list($(".faculty_list"),element_faculty_list_item,2200,"faculty");
+    if(load_cmd.sponsor)
+        load_my_list($(".sponsor_list"),element_sponsor_list_item,2300,"sponsor");
+    if(load_cmd.news)
+        //  console.log("i am news klist");
+        load_my_list($(".news_list"),element_news_list_item,2400,"news");
+}
+
+
+function show_my_data(data,type){
+    var rowCount = data.readInt32();
+
+    for(var i=0; i <rowCount ; i++){
+        var id = data.readInt32();
+        var name = data.readUTF();
+        var post = data.readUTF();
+
+
+        $("."+type+"_view_name").text(name);
+
+        $("."+type+"_view_body_contain").attr('data_id',id+'');
+        $("."+type+"_name_input").val(name);
+        $("."+type+"_post_input").val(post);
+
+        if(type != "news"){
+            var d = new Date();
+            $("."+type+"_post_img").attr('src','/img/'+type+'/'+id+".jpg?"+ d.getTime());
+        }
+
+
+        $("."+type+"_view_body").removeClass('view_body_disable');
+
+    }
+
+}
+
+
+function load_my_list(list_container,list_item,data_code,type){
+
+    var data_list = new ByteBuffer();
+    data_list.writeInt32(count);
+    data_list.writeInt32(data_code);
+
+    sendData(count,list_container,data_list,function(ev,data){
+
+        list_container.html("");
+
+        var rowCount = data.msg.readInt32();
+
+        for(var i =0; i <rowCount ; i++){
+            var id = data.msg.readInt32();
+            var name = data.msg.readUTF();
+
+
+            var item = $(list_item);
+            item.find('.container_list_item_name').text(name);
+            item.attr('data_id',id+"");
+
+            list_container.append(item);
+        }
+
+
+        $("."+type+"_list_item").on('click',function(){
+
+            //console.log(this);
+
+            $("."+type+"_list_item").removeClass('list_item_selected');
+            $("."+type+"_view_delete_btn").removeClass('view_delete_btn_disable');
+
+            $(this).addClass("list_item_selected");
+
+            var data_item = new ByteBuffer();
+            data_item.writeInt32(count);
+            data_item.writeInt32(data_code + 1);
+            data_item.writeInt32(parseInt($(this).attr('data_id')));
+
+            sendData(count,$(this),data_item,function(ev,data){
+                show_my_data(data.msg,type);
+            });
+
+        });
+
+        if(type != "news")
+            $("#"+type+"_search_box").change();
+
+
+        $("."+type+"_list_item").removeClass('list_item_selected');
+        var data_id = $("."+type+"_view_body_contain").attr('data_id');
+        if(data_id != "" && data_id != "new"){
+            $("."+type+"_list_item[data_id="+data_id+"]").addClass("list_item_selected");
+        }
+
+
+    });
+
+
+}
+
+
+
+function LoadEventList(){
+    var data_event_list = new ByteBuffer();
+    data_event_list.writeInt32(count);
+    data_event_list.writeInt32(2003);
+
+    sendData(count,$(".event_list"),data_event_list,function(ev,data){
+        var rowCount = data.msg.readInt32();
+        $(".event_list").html("");
+
+        for(var i= 0; i < rowCount; i++){
+            var item = $(element_events_list_item);
+            var name = item.find(".event_name");
+
+            item.attr('data_id',data.msg.readInt32()+"");
+            name.text(data.msg.readUTF());
+
+            $(".event_list").append(item);
+        }
+
+        $(".event_list_item").on('click',function(){
+            $(".event_list_item").removeClass('list_item_selected');
+            $(".event_view_delete_btn").removeClass('view_delete_btn_disable');
+
+            $(this).addClass("list_item_selected");
+
+            var data_event = new ByteBuffer();
+            data_event.writeInt32(count);
+            data_event.writeInt32(2004);
+            data_event.writeInt(parseInt($(this).attr('data_id')));
+
+            sendData(count,$(this),data_event,function(ev,data){
+                showEventInView(data.msg);
+            })
+
+
+        });
+
+        $("#event_search_box").change();
+
+        $(".event_list_item").removeClass('list_item_selected');
+        var data_id = $(".event_view_body_contain").attr('data_id');
+        if(data_id != "" && data_id != "new"){
+            $(".event_list_item[data_id="+data_id+"]").addClass("list_item_selected");
+        }
+
+
+
+    });
+}
+
+function showEventInView(msg){
+    var rowCount = msg.readInt32();
+
+    for(var i = 0; i<rowCount;i++){
+        var id = msg.readInt32();
+        var name = msg.readUTF();
+        var time = msg.readUTF();
+        var type = msg.readUTF();
+        var tag = msg.readUTF();
+        var location = msg.readUTF();
+        var intro = msg.readUTF();
+        var task = msg.readUTF();
+        var rule = msg.readUTF();
+        var share_link = msg.readUTF();
+
+        var coordinatore1_name = msg.readUTF();
+        var coordinatore1_email = msg.readUTF();
+
+        var coordinatore2_name = msg.readUTF();
+        var coordinatore2_email = msg.readUTF();
+
+
+        $(".event_view_name").text(name);
+
+        $(".event_view_body_contain").attr('data_id',id+'');
+        $(".event_name_input").val(name);
+        $(".event_time_input").val(time);
+        $(".event_type_input").val(type);
+        $(".event_tag_input").val(tag);
+        $(".event_location_input").val(location);
+        $(".event_intro_input").val(intro);
+        $(".event_task_input").val(task);
+        $(".event_rule_input").val(rule);
+        $(".event_share_link_input").val(share_link);
+
+        $(".event_coordinatore1_name").val(coordinatore1_name);
+        $(".event_coordinatore1_mail").val(coordinatore1_email);
+
+        $(".event_coordinatore2_name").val(coordinatore2_name);
+        $(".event_coordinatore2_mail").val(coordinatore2_email);
+
+
+        $(".event_view_body").removeClass('view_body_disable');
+
+
+        var d = new Date();
+        $(".event_post_img").attr('src','/img/event/'+id+".jpg?"+ d.getTime());
+
+        //$("#myimg").removeAttr("src").attr("src", "/myimg.jpg");
+
+        //console.log("name="+msg.readUTF()+" email="+msg.readUTF());
+        //console.log("name="+msg.readUTF()+" email="+msg.readUTF());
+        //console.log(id+" "+name+" "+time+" "+type+" "+tag+" "+location+" "+intro+" "+task+" "+rule+" "+share_link);
+    }
+}
+
+
+function sendData(cnt,elm,data,fn){
+    if(isLogin){
+        $.fn.Ws.Send(defHost,elm,cnt,data,fn);
+        count++;
+    }else{
+        console.log("first Login");
+    }
+}
+
+
+
+
+
+(function ($) {
+    var conn = {};
+    $.fn.Ws = function (Host) {
+        var websocket;
+        var wsUri = "ws://" + Host + ":3030?key=1002";
+        console.log(wsUri);
+
+        websocket = new WebSocket(wsUri);
+        websocket.binaryType = "arraybuffer";
+        websocket.onopen = function (evt) {
+            onOpen(evt, Host, websocket);
+        };
+        websocket.onclose = function (evt) {
+            onClose(evt, Host, websocket);
+        };
+        websocket.onmessage = function (evt) {
+            onMessage(evt, Host, websocket);
+        };
+        websocket.onerror = function (evt) {
+            onError(evt, Host, websocket);
+        };
+    };
+    function onOpen(evt, host, websocket) {
+
+        conn[host] = {
+            Socket: websocket,
+            send: function (data) {
+                this.Socket.send(data);
+            }
+        };
+        $(window).trigger(host + "Connected");
+    }
+
+    function onClose(evt, Host, websocket) {
+
+        conn = {};
+        isFirstTime = false;
+        isLogin = false;
+        showAlert({
+            title : "Server disconnected ",
+            body : "you are disconnected from server ,check your internet connection . press Ok to reconnect.",
+            ok : function(){
+                $.fn.Ws(Host);
+            }
+        });
+    }
+
+    function onMessage(evt, Host, websocket) {
+
+        var msg = ByteBuffer.wrap(evt.data,null ,false);
+        msg.flip();
+
+
+        var backCount = msg.readInt32();
+        if (backCount >= 0 && backCount < 10000) {
+            $(window).trigger('update', {key: backCount, 'msg': msg});
+        } else {
+            var wsElm = $(".Ws" + backCount);
+            wsElm.trigger("Ws" + backCount, {'msg':msg});
+            wsElm.unbind("Ws" + backCount);
+            wsElm.removeClass("Ws" + backCount);
+        }
+
+    }
+
+    function onError(evt, Host, websocket) {
+        console.log(evt);
+    }
+
+    $.fn.Ws.Send = function (Host,elm,cnt,data,fn) {
+        elm.addClass("Ws" + cnt);
+        elm.bind("Ws" + cnt, fn);
+        data.flip();
+
+        conn[Host].send(data.toArrayBuffer());
+    }
+
+}(jQuery));
+</script>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div class="logBox">
+    <div class="login">
+        <div class="logo"></div>
+        <div class="box">
+            <input type="text" class="textbox" placeholder="Enter Username" />
+            <input type="password" class="textbox" placeholder="Enter Password" />
+        </div>
+        <div class="button">Login</div>
+    </div>
+</div>
+
+</body>
+
+<style>
+    .link{
+        bottom: 15px;
+        width: 200px;
+        position: absolute;
+        font-size: 12px;
+        right: 10px;
+        /*color: #00ccff;*/
+        color:#72c02c;
+        text-decoration: none;
+    }
+    .link:hover{
+        text-decoration: underline;
+    }
+    body{
+        margin: 0;
+    }
+    .logBox.ok{
+        pointer-events:none;
+    }
+    .logBox{
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+    }
+    .login > .box > .textbox:nth-child(2) {
+        top: 118px;
+        border-radius:0 0 20px 20px;
+    }
+    .login > .box > .textbox{
+        border: 1px solid #ccc;
+        border-radius: 20px 20px 0 0;
+        height: 46px;
+        left: 75px;
+        padding-left: 14px;
+        outline: none;
+        position: absolute;
+        top: 63px;
+        width: 350px;
+    }
+
+
+    .login.ok{
+        opacity: 0;
+        transform: scale(0.9);
+        pointer-events:none;
+    }
+    .login > .button:hover{
+        background-color: #00d6bb;
+        cursor: pointer;
+        color: #444;
+    }
+    .login > .button {
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 0 0 15px 15px;
+        color: #000;
+        content: "kishan";
+        font-size: 22px;
+        height: 42px;
+        left: calc(50% - 75px);
+        line-height: 40px;
+        position: absolute;
+        text-align: center;
+        top: calc(50% + 139px);
+        width: 150px;
+        transition:all 500ms;
+    }
+    .login > .box{
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+        border: 1px solid #fff;
+        border-radius: 65px 0;
+        height: 228px;
+        left: calc(50% + 2px);
+        position: absolute;
+        top: calc(50% - 125px);
+        width: 500px;
+    }
+    .login > .logo{
+        background-image: url("img/Logo.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 2px solid #fff;
+        border-radius: 0 65px;
+        box-shadow: 0 0 73px rgba(255, 255, 255, 0.37);
+        height: 226px;
+        left: calc(50% - 500px);
+        position: absolute;
+        top: calc(50% - 125px);
+        width: 500px;
+    }
+    .login{
+        /*background-color: #00ccff;*/
+        background-color:#72c02c;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        height: 200%;
+        left: -50%;
+        opacity: 1;
+        position: absolute;
+        top: -50%;
+        transform: scale(1);
+        transition: all 500ms ease 0s;
+        width: 200%;
+        z-index: 1000;
+    }
+</style>
+</html>

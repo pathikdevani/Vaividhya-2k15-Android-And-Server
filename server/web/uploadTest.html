@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Test</title>
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+</head>
+<body>
+    <input id="upload_file" type="file"  value="upload" >
+</body>
+<script>
+    $(document).ready(function(){
+        console.log("i am ready");
+
+        $("#upload_file").change(function(){
+            console.log($(this).val());
+
+
+            var file = $("#upload_file").get(0).files[0];
+
+
+            fileData.append(file.name,file);
+            console.log(file);
+
+
+            $.ajax({
+                    url : "/",
+                    type : "post",
+                    data : fileData,
+                    success : function(data){
+                            console.log("i am ok");
+                    },
+                    processData: false,
+                    contentType:false
+            });
+        });
+    });
+</script>
+</html>
